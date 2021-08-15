@@ -35,7 +35,7 @@
     font-size: 1.4rem;
 }
 .orders__table td, .orders__table th {
-    padding: 2rem;
+    padding: .5rem;
 }
 .form {
     margin-top: 10rem;
@@ -154,6 +154,9 @@
 }
 
 @media screen and (min-width: 768px)  {
+    .orders__table td, .orders__table th {
+        padding: 2rem;
+    }
     .products {
         padding: 15rem 0;
     }
